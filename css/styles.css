@@ -37,7 +37,7 @@ color: #4D5AE5;}
 text-decoration: none;}
 
 .list .link:hover,
-.list .link:focus {color: var(--link-focus-cl); border: 1px solid transparent}
+.list .link:focus {color: var(--link-focus-cl); border: 1px solid transparent;}
 
 .conts {font-style: normal;}
 .company-conts {color: var(--conts-text-cl);}
@@ -237,9 +237,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);}
 
 .portfolio-filter {padding: 12px 24px; 
     border: 1px solid #E7E9FC; 
-    border-radius: 4px;}
-.portfolio-filter:hover, 
-.portfolio-filter:focus {border: 1px solid transparent;}    
+    border-radius: 4px;}   
     
     /*--Portfolio--*/
 
