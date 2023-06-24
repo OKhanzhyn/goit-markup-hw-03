@@ -71,7 +71,7 @@ cursor: pointer;}
 .btn .portfolio-filter:hover,
 .btn .portfolio-filter:focus {
 background: var(--btn-bg-focus-cl);
-border: 1px solid #E7E9FC;
+border: 1px solid transparent;
 color: #FFFFFF;}
 .menu {font-weight: 500;
 color: var(--sbt-text-cl);}
