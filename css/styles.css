@@ -161,11 +161,10 @@ flex-direction: column;}
 
 .logo {margin-right: 76px;}
 .menu-box {display: flex; 
-width: 261px; 
-gap: 40px; 
-padding: 24px 0;}
+gap: 40px;}
+.menu {padding: 24px 0;}
 .conts {margin-right: 0; margin-left: auto;}
-.conts-box {width: 345px; gap: 40px;
+.conts-box {display: flex; gap: 40px;
 padding: 24px 0;}
 
 /*--hero section--*/
