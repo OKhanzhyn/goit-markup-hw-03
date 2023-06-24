@@ -159,7 +159,7 @@ flex-direction: column;}
 .header-contr {display: flex;}
 .header-contr-box {display: flex; align-items: center;}
 
-.logo {margin-right: 76px;}
+.lgo-top {margin-right: 76px;}
 .menu-box {display: flex; 
 gap: 40px;}
 .menu {padding: 24px 0;}
@@ -171,7 +171,7 @@ padding: 24px 0;}
 
 .main-box {display: flex; flex-direction: column; align-items: center;
 max-width: 496px;}
-.main-page-title {width: 496px; margin-bottom: 48px;}
+.main-page-title {max-width: 496px; margin-bottom: 48px;}
 .mp-btn-order {align-self: center; 
 border-radius: 4px;
 border: none;
@@ -194,9 +194,9 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);}
 .studio-section {padding-bottom: 120px;}
 .studio-contr {display: flex; flex-direction: column; align-items: center;}
 .studio-contr {margin-bottom: 72px;}
-.pic-box {display: flex; width: 1128px; gap: 24px; margin-top: 72px;}
+.pic-box {display: flex; width: 1128px; gap: 24px;}
 .pic-box-item {width: 360px; height: 300;}
-
+.studio-title {margin-bottom: 72px;}
 /*--Team section--*/
 
 .team-section {padding: 120px 0;}
@@ -213,7 +213,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);}
 .bottom-section {padding: 100px 0;}
 .ftr-contr {display: flex; flex-direction: column;}
 .bottom-text {width: 264px;}
-.logo {display: inline-block; margin-bottom: 16px;}
+.lgo-btm {display: inline-block; margin-bottom: 16px;}
 
 /**
   |======================================
@@ -239,6 +239,8 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);}
 .portfolio-filter {padding: 12px 24px; 
     border: 1px solid #E7E9FC; 
     border-radius: 4px;}
+.portfolio-filter:hover, 
+.portfolio-filter:focus {border: 1px solid transparent;}    
     
     /*--Portfolio--*/
 
